@@ -1,0 +1,15 @@
+<svg id="Icon_Arrow_right_Narrow" data-name="Icon / Arrow right / Narrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Shape" d="M11.434.234a.8.8,0,0,0-.067,1.056l.067.075L13.268,3.2H.8A.8.8,0,0,0,.707,4.795L.8,4.8H13.268L11.434,6.634a.8.8,0,0,0,1.056,1.2l.075-.067,3.2-3.2a.806.806,0,0,0,.077-.089l.057-.089.043-.09.028-.084.02-.094L16,4.072,16,4l0-.06-.014-.1L15.96,3.75l-.035-.089-.042-.078-.054-.077-.064-.072-3.2-3.2A.8.8,0,0,0,11.434.234Z" fill="#393738"/>
+    </clipPath>
+  </defs>
+  <g id="Group_42" data-name="Group 42" transform="translate(0 4)">
+    <path id="Shape-2" data-name="Shape" d="M11.434.234a.8.8,0,0,0-.067,1.056l.067.075L13.268,3.2H.8A.8.8,0,0,0,.707,4.795L.8,4.8H13.268L11.434,6.634a.8.8,0,0,0,1.056,1.2l.075-.067,3.2-3.2a.806.806,0,0,0,.077-.089l.057-.089.043-.09.028-.084.02-.094L16,4.072,16,4l0-.06-.014-.1L15.96,3.75l-.035-.089-.042-.078-.054-.077-.064-.072-3.2-3.2A.8.8,0,0,0,11.434.234Z" fill="#393738"/>
+    <g id="Mask_Group_43" data-name="Mask Group 43" clip-path="url(#clip-path)">
+      <g id="_Color" data-name="↳ 🎨Color" transform="translate(0 -4)">
+        <rect id="Base" width="16" height="16" fill="#c20a10"/>
+      </g>
+    </g>
+  </g>
+</svg>

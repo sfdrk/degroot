@@ -1,0 +1,1238 @@
+.container-fluid {
+  max-width: 1440px;
+}
+
+body {
+  background: #F7F8F9;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.date p {
+  padding-left: 0.7rem;
+  font-family: "Galano Grotesque";
+  color: #8F8F8F;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-menu {
+  background-color: white;
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: 1;
+}
+
+.banner-container {
+  position: relative;
+}
+
+.banner-container img {
+  min-height: 21.9rem;
+  height: auto;
+  width: 100%;
+}
+
+.banner-container .cover-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.banner-container .cover-container .cover-heading p {
+  text-align: center;
+  font-size: calc(36px + (74 - 36) * ((100vw - 300px) / (1600 - 300)));
+  color: #ffffff;
+  font-family: "Galano Grotesque bold";
+  font-weight: bold;
+  line-height: 5.375rem;
+}
+
+.banner-container .cover-container .banner-buttons {
+  padding-top: 1rem;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-container .cover-container .banner-buttons a {
+  padding: 0 0.4rem;
+}
+
+.banner-sub-container {
+  background: #c20a10;
+  color: #ffffff;
+  padding: 2.19rem 0;
+}
+
+.banner-sub-container p {
+  font-family: "Galano Grotesque semi";
+  font-size: 1.75rem;
+}
+
+.banner-sub-container .banner-sub-heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-sub-container .banner-sub-heading .icon-arrowright {
+  font-size: 0.6rem;
+  padding-left: 0.375rem;
+}
+
+.news-event-container {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.news-event-container .news-card {
+  background-color: #ffffff;
+  padding: 1.8rem;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.8rem;
+  width: 92%;
+  float: right;
+  bottom: -13.1rem;
+  position: absolute;
+  right: 0;
+}
+
+.news-event-container .news-card .card-heading {
+  color: #c20a10;
+  font-size: 1.313rem;
+  font-family: "Galano Grotesque bold";
+  line-height: 1.75rem;
+}
+
+.news-event-container .news-card .card-content {
+  font-family: "Galano Grotesque";
+  line-height: 1.75rem;
+}
+
+.news-event-container .news-card .date-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-event-container .news-card .date-container .calender-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8F8F8F;
+}
+
+.news-event-container .news-card .date-container .calender-date p {
+  font-size: .875rem;
+  color: #8F8F8F;
+  font-family: "Galano Grotesque";
+  padding-left: .5rem;
+}
+
+.news-event-container .news-card .date-container .icon-Icon---Arrow-right---Narrow {
+  font-size: .7rem;
+  color: #c20a10;
+}
+
+.news-event-container .news-container .news-heading {
+  font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+  color: #c20a10;
+  font-family: "Galano Grotesque bold";
+  font-weight: bold;
+}
+
+.news-event-container .news-container .news-first-container {
+  padding-top: 2rem;
+  position: relative;
+  margin-bottom: 13.1rem;
+}
+
+.news-event-container .news-container .news-first-container img {
+  width: 100%;
+}
+
+.news-event-container .news-container .news-second-container {
+  padding-top: 2rem;
+  position: relative;
+  margin-bottom: 13.1rem;
+}
+
+.news-event-container .news-container .news-second-container img {
+  width: 100%;
+}
+
+.news-event-container .bdr-bottom {
+  border-bottom: 2px solid #c20a10;
+  padding-top: 2rem;
+}
+
+.news-event-container .all-news {
+  font-family: "Galano Grotesque semi";
+  color: #393738;
+  float: right;
+}
+
+.news-event-container .all-news span {
+  padding-left: .625rem;
+  font-size: .6rem;
+}
+
+.news-event-container .event-container .event-heading {
+  font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+  color: #c20a10;
+  font-family: "Galano Grotesque bold";
+  font-weight: bold;
+}
+
+.news-event-container .event-container .event-main-container {
+  padding-top: 2rem;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 1.8rem;
+}
+
+.news-event-container .event-container .event-main-container .event-card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.news-event-container .event-container .event-main-container .event-card-container .event-card {
+  padding: 1.5rem;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.news-event-container .event-container .event-main-container .event-card-container .event-card .event-card-heading {
+  font-family: "Galano Grotesque bold";
+  color: #c20a10;
+  line-height: 1.375rem;
+}
+
+.news-event-container .event-container .event-main-container .event-card-container .event-card .date-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.news-event-container .event-container .event-main-container .event-card-container .event-card .date-container .calender-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #8F8F8F;
+}
+
+.news-event-container .event-container .event-main-container .event-card-container .event-card .date-container .calender-date p {
+  font-size: .875rem;
+  color: #8F8F8F;
+  font-family: "Galano Grotesque";
+  padding-left: .5rem;
+}
+
+.news-event-container .event-container .event-main-container .event-card-container .event-card .date-container .icon-Icon---Arrow-right---Narrow {
+  font-size: .7rem;
+  color: #c20a10;
+}
+
+.grid-container {
+  padding-bottom: 5rem;
+}
+
+.grid-container .grid-one {
+  position: relative;
+  height: 100%;
+}
+
+.grid-container .grid-one img {
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+.grid-container .grid-two {
+  padding-bottom: 0.938rem;
+  position: relative;
+}
+
+.grid-container .grid-two img {
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+.grid-container .grid-three {
+  padding-top: 0.938rem;
+  position: relative;
+}
+
+.grid-container .grid-three img {
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+.grid-container .grid-typography {
+  position: absolute;
+  top: 0;
+  padding: 1.875rem;
+}
+
+.grid-container .grid-typography .grid-heading {
+  font-family: "Galano Grotesque bold";
+  font-weight: bold;
+  color: #ffffff;
+  font-size: calc(28px + (36 - 28) * ((100vw - 300px) / (1600 - 300)));
+  line-height: 2.375rem;
+  padding-bottom: 1rem;
+}
+
+.grid-container .grid-typography .grid-subheading {
+  font-family: "Galano Grotesque";
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.75rem;
+}
+
+.form-container {
+  width: 100%;
+  height: auto;
+  background: url("../images/gridBgImage.webp");
+  background-size: cover;
+  padding: 5rem 0;
+}
+
+.form-container img {
+  width: 100%;
+  height: auto;
+}
+
+.form-container .form-heading {
+  color: #ffffff;
+  font-family: "Galano Grotesque bold";
+  font-weight: bold;
+  line-height: 2.4rem;
+  font-size: 1.75rem;
+  padding-bottom: 1rem;
+}
+
+.form-container .form-content {
+  font-family: "Galano Grotesque";
+  color: #ffffff;
+  line-height: 1.75rem;
+  max-width: 535px;
+  padding-bottom: 2.4rem;
+}
+
+.form-container ul li a {
+  width: 100%;
+  float: left;
+  font-size: 1rem;
+  line-height: 1.75;
+  color: #fff;
+  padding: .25rem 0 .5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Galano Grotesque";
+}
+
+.form-container ul li a:hover {
+  text-decoration: none;
+}
+
+.form-container ul li i {
+  color: white;
+  font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+  margin-right: 1.25rem;
+}
+
+.form-container form input[type=text] {
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  padding: .8125rem 1.25rem;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  outline: none !important;
+  border: #d6d6d6 solid 1px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4a545b;
+  background-color: #fff;
+  border-radius: 3px;
+  margin-bottom: 1rem;
+  font-family: "Galano Grotesque";
+}
+
+.form-container form ::-webkit-input-placeholder {
+  font-family: "Galano Grotesque";
+  color: #8F8F8F;
+}
+
+.form-container form :-ms-input-placeholder {
+  font-family: "Galano Grotesque";
+  color: #8F8F8F;
+}
+
+.form-container form ::-ms-input-placeholder {
+  font-family: "Galano Grotesque";
+  color: #8F8F8F;
+}
+
+.form-container form ::placeholder {
+  font-family: "Galano Grotesque";
+  color: #8F8F8F;
+}
+
+.form-container form .checkbox-container {
+  padding-bottom: 1rem;
+}
+
+.form-container form .checkbox-container input[type=checkbox] {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: .6875rem;
+  border-radius: 8px;
+  border: none !important;
+  outline: none !important;
+}
+
+.form-container form .checkbox-container .label {
+  font-size: 0.75rem;
+  font-family: "Galano Grotesque";
+  color: #ffffff;
+}
+
+.form-container form input[type=submit] {
+  height: auto;
+  background-color: #fbaa09;
+  color: #ffffff;
+  font-family: "Galano Grotesque semi";
+  line-height: 1.25rem;
+  border-radius: 5px;
+  padding: .8125rem 1.25rem;
+  width: 100%;
+  outline: none !important;
+  border: none !important;
+}
+
+.main-footer {
+  background: #393738;
+  padding: 1rem 0;
+}
+
+.main-footer p {
+  color: #ffffff;
+  font-family: "Galano Grotesque";
+  font-size: 0.75rem;
+  line-height: 1.4rem;
+}
+
+.main-footer .footer-list a {
+  color: #ffffff;
+  padding-right: 1.25rem;
+  line-height: 1.4rem;
+  font-family: "Galano Grotesque";
+  font-size: 0.75rem;
+}
+
+.main-footer .footer-list a:hover {
+  text-decoration: none;
+}
+
+.main-footer .address-container {
+  text-align: end;
+}
+
+.main-footer .address-container .phone-mail-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.main-footer .address-container .phone-mail-container span {
+  color: #ffffff;
+  font-size: 0.75rem;
+  position: relative;
+  top: 1px;
+}
+
+.main-footer .address-container .phone-mail-container a {
+  color: #ffffff;
+  padding-left: 0.438rem;
+  font-family: "Galano Grotesque";
+  font-size: 0.75rem;
+}
+
+.main-footer .address-container .phone-mail-container .phone-container {
+  margin-left: 1.125rem;
+}
+
+.sub-footer {
+  padding: 1.875rem 0;
+}
+
+.sub-footer .sub-footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub-footer .sub-footer-container p {
+  font-family: "Galano Grotesque bold";
+  font-weight: bold;
+  line-height: 1.75rem;
+}
+
+.sub-footer .sub-footer-container .footer-brand-container li {
+  padding: 0 15px;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1020px) {
+  .news-event-container .news-container .second-news {
+    padding: 0;
+  }
+  .news-event-container .event-main-container {
+    grid-gap: 0.938rem !important;
+  }
+  .news-event-container .event-main-container .event-card {
+    padding: 1.19rem !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .banner-container .cover-container {
+    width: 36rem;
+  }
+  .banner-container .cover-container .cover-heading p {
+    line-height: 4.375rem !important;
+  }
+  .banner-sub-container .banner-sub-heading p {
+    width: 29rem;
+  }
+  .news-event-container {
+    padding: 4rem 0;
+  }
+  .news-event-container .news-container .news-first-container {
+    padding-top: 1.7rem;
+  }
+  .news-event-container .news-container .news-second-container {
+    padding-top: 1.7rem;
+  }
+  .news-event-container .event-container {
+    padding-top: 4rem;
+  }
+  .news-event-container .event-container .event-main-container {
+    padding-top: 1.7rem;
+  }
+  .grid-container .grid-typography {
+    padding: 1.6rem;
+  }
+  .grid-container .grid-typography .grid-heading {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner-sub-container .banner-sub-heading {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1.1rem;
+  }
+  .banner-sub-container .banner-sub-heading p {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 425px) {
+  .banner-container .cover-container {
+    width: 24rem;
+  }
+  .banner-container .cover-container .cover-heading p {
+    line-height: 3.6rem;
+  }
+  .banner-container .banner-buttons a {
+    padding: 0 0.3rem !important;
+  }
+  .news-event-container {
+    padding: 3rem 0;
+  }
+  .news-event-container .news-container .news-first-container {
+    padding-top: 1.5rem;
+  }
+  .news-event-container .news-container .news-second-container {
+    padding-top: 1.5rem;
+  }
+  .news-event-container .event-container {
+    padding-top: 3rem;
+  }
+  .news-event-container .event-container .event-main-container {
+    padding-top: 1.5rem;
+  }
+  .news-event-container .news-card {
+    padding: 1rem;
+    grid-gap: 1rem;
+    width: 100%;
+    position: static;
+  }
+  .grid-container {
+    padding-bottom: 3rem;
+  }
+  .grid-container img {
+    width: 100% !important;
+    max-height: 16rem;
+  }
+  .grid-container .grid-two {
+    padding: 0.938rem 0;
+  }
+  .grid-container .grid-three {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .banner-container .cover-container {
+    width: 23rem;
+  }
+  .banner-container .cover-container .cover-heading p {
+    line-height: 3.06rem;
+  }
+  .banner-container .cover-container .banner-buttons a {
+    padding: 0 .2rem !important;
+  }
+  .banner-sub-container p {
+    font-size: 1.313rem !important;
+  }
+  .news-event-container {
+    padding: 2rem 0;
+  }
+  .news-event-container .news-container .news-first-container {
+    padding-top: 1rem;
+  }
+  .news-event-container .news-container .news-second-container {
+    display: none;
+  }
+  .news-event-container .event-container {
+    padding-top: 2rem;
+  }
+  .news-event-container .event-container .event-main-container {
+    padding-top: 1rem;
+  }
+  .grid-container {
+    padding-bottom: 3.125rem;
+  }
+  .grid-container .grid-two {
+    padding: 0.938rem 0;
+  }
+  .grid-container .grid-three {
+    padding: 0;
+  }
+  .form-container {
+    padding: 1.875rem 0;
+  }
+  .form-container .form-heading {
+    font-size: 1.313rem;
+  }
+  .main-footer {
+    padding: 2.1rem 0;
+  }
+  .main-footer .address-container {
+    text-align: start;
+    padding-top: 2.9rem;
+  }
+  .main-footer .address-container .phone-mail-container {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
+  .sub-footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sub-footer-container p {
+    padding-bottom: 0.813rem;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .banner-container .cover-container {
+    width: 20rem !important;
+  }
+  .sub-footer-container .footer-brand-container {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .sub-footer-container .footer-brand-container li {
+    padding-bottom: .9rem !important;
+  }
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  -webkit-box-shadow: 0 0 10px 0 #000000bf;
+          box-shadow: 0 0 10px 0 #000000bf;
+}
+
+header .sub-header {
+  background: #c20a10;
+  padding: 0 1.5625rem;
+}
+
+header .sub-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+header .sub-header ul li {
+  padding: 0 0.7rem;
+}
+
+header .sub-header ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  font-family: "Galano Grotesque";
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+header .sub-header ul li a .icon-Chevron-down {
+  padding-left: 0.3rem;
+  font-size: 0.3rem;
+  font-weight: normal;
+}
+
+header .sub-header .service-list {
+  display: none;
+  position: absolute;
+  background: white;
+  padding: 1.313rem 0.938rem;
+  -webkit-box-shadow: 0 2px 18px 5px #0000001f;
+          box-shadow: 0 2px 18px 5px #0000001f;
+  -webkit-transition-duration: 3s;
+          transition-duration: 3s;
+}
+
+header .sub-header .service-list li {
+  padding: 0.7rem 0;
+}
+
+header .sub-header .service-list a {
+  font-family: "Galano Grotesque";
+  color: #8F8F8F;
+  font-size: 0.875rem;
+}
+
+header .sub-header .service-list a:hover {
+  color: #c20a10;
+}
+
+header nav {
+  background-color: #ffffff;
+  padding: 0 2.1875rem;
+}
+
+header nav .main-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.625rem 0;
+}
+
+header nav .main-navigation .navigation-items {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 4.188rem;
+}
+
+header nav .main-navigation .navigation-items .nav-fh {
+  padding: 0 0.9375rem;
+  height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header nav .main-navigation .navigation-items .nav-fh a {
+  color: #393738;
+  font-family: "Galano Grotesque";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav .main-navigation .navigation-items .nav-fh a:hover {
+  text-decoration: none;
+  color: #c20a10;
+}
+
+header nav .main-navigation .navigation-items .nav-fh .icon-Chevron-down {
+  padding-left: 0.3rem;
+  font-size: 0.3rem;
+  color: #8F8F8F;
+}
+
+header nav .main-navigation .navigation-items .nav-fh .navigations-submenu {
+  display: none;
+  padding: 0;
+  position: absolute;
+  background: white;
+  left: 0;
+  right: 0;
+  top: 7rem;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 2px 18px 5px #0000001f;
+          box-shadow: 0 2px 18px 5px #0000001f;
+}
+
+header nav .main-navigation .navigation-items .nav-fh .navigations-submenu ul {
+  width: 100%;
+}
+
+header nav .main-navigation .navigation-items .nav-fh .navigations-submenu ul li {
+  padding: .3rem 0;
+}
+
+header nav .main-navigation .navigation-items .nav-fh .navigations-submenu .submenu-initial {
+  width: 100%;
+  max-width: 51.25rem;
+  padding: 2.813rem 0 2.875rem 1.875rem;
+}
+
+header nav .main-navigation .navigation-items .nav-fh .navigations-submenu .submenu-final {
+  background: #fcf3f3;
+  width: 18.3rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 2.813rem 0 2.813rem 1.875rem;
+}
+
+header .action-container {
+  width: 9rem;
+  margin-right: .6rem;
+}
+
+header .action-container .actions {
+  float: right;
+}
+
+header .action-container .actions a {
+  color: #393738;
+  padding: 0 0.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+}
+
+header .action-container .actions a:hover {
+  color: #c20a10;
+}
+
+header .action-container .actions .icon-menu {
+  font-size: .8rem;
+}
+
+.mobile-menu img {
+  position: relative;
+  left: -14rem;
+}
+
+.mobile-menu .dropdown-container {
+  position: relative;
+  bottom: 34rem;
+}
+
+.mobile-menu .dropdown-container .dropdown-list {
+  width: 100%;
+  padding-bottom: 1rem;
+  position: absolute;
+  padding: 0 15px;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.mobile-menu .dropdown-container .dropdown-list li {
+  border-bottom: 1px solid #EC6707;
+  padding-top: 0.75rem;
+}
+
+.mobile-menu .dropdown-container .dropdown-list li a {
+  font-size: 1.313rem;
+  font-family: "Galano Grotesque bold";
+  color: #c20a10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: .75rem;
+}
+
+.mobile-menu .dropdown-container .dropdown-list li span {
+  font-size: .7rem;
+}
+
+.mobile-menu .dropdown-container .dropdown-subnav {
+  padding-left: 1rem;
+  display: none;
+}
+
+.mobile-menu .dropdown-container .dropdown-subnav li {
+  border: none;
+}
+
+.mobile-menu .dropdown-container .dropdown-subnav li a {
+  font-family: "Galano Grotesque regular";
+  color: #393738;
+  font-size: 1rem;
+}
+
+.arrow-up {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-transform-origin: .5rem;
+          transform-origin: .5rem;
+}
+
+.arrow-down {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+@media screen and (max-width: 768px) {
+  .sub-header {
+    display: none;
+  }
+  nav {
+    padding: 0 !important;
+  }
+  nav .main-navigation ul {
+    display: none !important;
+  }
+  nav .action-container {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  header .sub-header {
+    padding: 0;
+  }
+  header nav {
+    padding: 0 0.625rem;
+  }
+  header nav .main-navigation img {
+    width: 8.813rem;
+  }
+  header nav .main-navigation .navigation-items {
+    padding-left: 2.188rem;
+    font-size: 0.813rem;
+  }
+  header nav .navigations-submenu {
+    top: 6rem !important;
+  }
+}
+
+@font-face {
+  font-family: 'Galano Grotesque bold';
+  src: url("../fonts/GalanoGrotesque-Bold.woff2") format("woff2"), url("../fonts/GalanoGrotesque-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque semi';
+  src: url("../fonts/GalanoGrotesque-SemiBold.woff2") format("woff2"), url("../fonts/GalanoGrotesque-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque';
+  src: url("../fonts/GalanoGrotesque-Medium.woff2") format("woff2"), url("../fonts/GalanoGrotesque-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Galano Grotesque regular';
+  src: url("../fonts/GalanoGrotesque-Regular.woff2") format("woff2"), url("../fonts/GalanoGrotesque-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Icon---Arrow-right---Narrow:before {
+  content: "\e909";
+}
+
+.icon-Group-62:before {
+  content: "\e906";
+}
+
+.icon-arrowright:before {
+  content: "\e905";
+}
+
+.icon-Chevron-down:before {
+  content: "\e904";
+}
+
+.icon-at:before {
+  content: "\e907";
+}
+
+.icon-menu:before {
+  content: "\e901";
+}
+
+.icon-Group-26:before {
+  content: "\e944";
+}
+
+.icon-Icon---Calendar:before {
+  content: "\e908";
+}
+
+.icon-search:before {
+  content: "\e902";
+}
+
+.icon-cart:before {
+  content: "\e903";
+}
+
+.icon-secure:before {
+  content: "\e900";
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.banner-left-button {
+  background: #fbaa09;
+  color: #ffffff;
+  outline: none !important;
+  border: none;
+  border: 1px solid #fbaa09;
+  border-radius: 3px;
+  font-family: "Galano Grotesque semi";
+  cursor: pointer;
+  height: 3.125rem;
+  width: 16.563rem;
+  margin-right: 5px;
+}
+
+.banner-right-button {
+  background: transparent;
+  padding: 0.75rem 1, 8rem;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-family: "Galano Grotesque semi";
+  outline: none !important;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 12px 32px;
+  height: 3.081rem;
+  width: 9.875rem;
+  margin-left: 3px;
+}
+
+.text-button {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-family: "Galano Grotesque semi";
+  border-radius: 3px;
+  font-size: 12px;
+  height: 3.125rem;
+  width: 12rem;
+  outline: none !important;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .banner-left-button {
+    font-size: 0.938rem;
+    height: 2.9rem;
+    width: 13.563rem;
+  }
+  .banner-right-button {
+    font-size: 0.938rem;
+    height: 2.944rem;
+    width: 9.78rem;
+  }
+  .text-button {
+    height: 3rem;
+    width: 11rem;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .banner-left-button {
+    font-size: 0.875rem;
+    width: 13.563rem;
+    height: 3rem;
+  }
+  .banner-right-button {
+    font-size: 0.875rem;
+    width: 8.875rem;
+    height: 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text-button {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .banner-left-button {
+    font-size: 0.75rem;
+    width: 12.438rem;
+    height: 2.5rem;
+  }
+  .banner-right-button {
+    font-size: 0.75rem;
+    width: 8.375rem;
+    height: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .banner-left-button {
+    width: 10.438rem;
+  }
+  .banner-right-button {
+    width: 7.375rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */

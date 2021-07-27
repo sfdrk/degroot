@@ -1,0 +1,237 @@
+
+header{
+    position:sticky;
+    top:0;
+    // width:100%;
+    z-index: 1;
+    box-shadow:0 0 10px 0 #000000bf;
+
+    .sub-header{
+        background:$mainBgColor;
+        padding:0 1.5625rem;
+        ul{
+            display:flex;
+            justify-content: flex-end;
+            li{
+                padding:0 0.7rem;
+                a{
+                    display: flex;
+                    align-items: center;
+                    color:$colorWhite;
+                    font-family: $galanoMedium;
+                    font-size:0.875rem;
+                    line-height:1.5rem;
+                    .icon-Chevron-down{
+                      padding-left: 0.3rem;
+                      font-size:0.3rem;
+                      font-weight:normal;
+                    }
+                }
+            }
+        }
+        .service-list{
+            display:none;
+            position:absolute;
+            background:white;
+            // padding:0.7rem 0.7rem;
+            padding:1.313rem 0.938rem;
+            box-shadow:0 2px 18px 5px #0000001f;
+            // transition:all .7s ease-in-out;
+            transition-duration:3s;
+            li{
+                padding:0.7rem 0;
+            }
+            a{
+                font-family:$galanoMedium;
+                color:$darkGrey;
+                font-size:0.875rem;
+            }
+            a:hover{
+                color:$mainBgColor;
+            }
+        }
+    }
+    nav{
+        background-color: $colorWhite;
+        padding:0 2.1875rem;
+        .main-navigation{
+            display: flex;
+            align-items: center;
+            padding:0.625rem 0;
+            .navigation-items{
+                height:100%;
+                width:100%;
+                display:flex;
+                padding-left:4.188rem;
+                .nav-fh{
+                    padding:0 0.9375rem;
+                    height:5rem;
+                    display:flex;
+                    a{
+                        color:$colorBlack;
+                        font-family:$galanoMedium;
+                        display:flex;
+                        align-items:center;
+                    }
+                    a:hover{
+                        text-decoration:none;
+                        color:$mainBgColor;
+
+                    }
+                    .icon-Chevron-down{
+                        padding-left:0.3rem;
+                        font-size:0.3rem;
+                        color:$darkGrey;
+                    }
+                    .navigations-submenu{
+                            display:none;
+                            padding:0;
+                            position: absolute;
+                            background: white;
+                            left: 0;
+                            right: 0;
+                            top: 7rem;
+                            border-radius: 5px;
+                            box-shadow:0 2px 18px 5px #0000001f;
+                            ul{
+                                width:100%;
+                                li{
+                                    padding:.3rem 0;
+                                }
+                               
+                            }
+                            .submenu-initial{
+                                width: 100%;
+                                max-width: 51.25rem;
+                                // padding: 2.1875rem 0px;
+                            padding: 2.813rem 0 2.875rem 1.875rem;
+
+                            }
+                             .submenu-final{
+                                    background:$colorPink;
+                                    width:18.3rem;
+                                    border-top-right-radius: 5px;
+                                    border-bottom-right-radius: 5px;
+                                    padding:2.813rem 0 2.813rem 1.875rem;
+                                }
+                    }
+                }
+            }
+        }        
+    }
+    .action-container{
+        width:9rem;
+        margin-right:.6rem;
+        .actions{
+            float:right;
+            a{
+                color:$colorBlack;
+                padding:0 0.6rem;
+                display:flex;
+                align-items:center;
+                font-size:1rem;
+            }
+            a:hover{
+                color:$mainBgColor;
+            }
+            .icon-menu{
+                font-size:.8rem;
+            }
+        }
+    }
+}
+.mobile-menu{
+    img{
+        position: relative;
+        left:-14rem;
+    }
+    .dropdown-container{
+        position: relative;
+        bottom:34rem;
+        .dropdown-list{
+        // padding-top: 2.188rem;
+        width:100%;
+        padding-bottom:1rem;
+        position: absolute;
+        padding:0 15px;
+        height:100vh;
+        overflow-y: scroll;
+        li{
+            border-bottom:1px solid $primary;
+            padding-top:0.75rem;
+            a{
+            font-size:1.313rem;
+            font-family: $mainFont;
+            color:$mainBgColor;
+            display:flex;
+            align-items:center;
+            justify-content:space-between;
+            padding-bottom:.75rem;
+            }
+            span{
+                font-size:.7rem;
+            }
+        }     
+    }
+    .dropdown-subnav{
+                padding-left:1rem;
+                display:none;
+                li{
+                    border:none;
+                    a{
+                        font-family: $galanoRegular;
+                        color:$colorBlack;  
+                        font-size:1rem;
+                    }
+                }
+            }
+    }  
+}
+
+.arrow-up{
+    transform:rotate(180deg);
+    transform-origin: .5rem;
+}
+.arrow-down{
+    transform:rotate(90deg);
+}
+@media screen and (max-width:768px){
+    .sub-header{
+        display:none;
+    }
+    nav{
+        padding:0 !important;
+        .main-navigation{
+            ul{
+                display:none !important;
+            }
+        }
+        .action-container{
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    header{
+        .sub-header{
+            padding:0;
+        }
+        nav{
+                padding:0 0.625rem;
+                .main-navigation{
+                img{
+                    width:8.813rem;
+                }
+                .navigation-items{
+                    // flex:none;
+                    padding-left:2.188rem;
+                    font-size: 0.813rem;
+                }
+             }
+             .navigations-submenu{
+                 top:6rem !important;
+             }
+        }
+    }
+}

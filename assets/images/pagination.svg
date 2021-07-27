@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="21" viewBox="0 0 20 21">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle" width="20" height="20" rx="10" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="UI_Pagination_Components_Counter_Active_State" data-name="UI / Pagination / Components / Counter / Active State" transform="translate(0 0.379)">
+    <g id="UI_Pagination_Components_Counter_Default_State" data-name="UI / Pagination / Components / Counter / Default State">
+      <g id="Container_Border_1px_Rounded" data-name="Container / Border (1px) / Rounded">
+        <g id="_Color" data-name="↳ 🎨Color">
+          <rect id="Rectangle-2" data-name="Rectangle" width="20" height="20" rx="10" fill="none"/>
+          <g id="_Color-2" data-name="↳ 🎨Color" clip-path="url(#clip-path)">
+            <g id="Background_Color" data-name="Background Color">
+              <rect id="Base" width="20" height="20" fill="#c20a10"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <text id="_1" data-name="1" transform="translate(10 16.621)" fill="#fff" font-size="16" font-family="SegoeUI, Segoe UI"><tspan x="-4.313" y="0">1</tspan></text>
+    </g>
+  </g>
+</svg>

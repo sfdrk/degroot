@@ -1,0 +1,15 @@
+<svg id="Icon_Calendar" data-name="Icon / Calendar" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M2.4,16A2.4,2.4,0,0,1,0,13.6V4A2.4,2.4,0,0,1,2.4,1.6H4V.8A.8.8,0,0,1,5.595.707L5.6.8v.8h4.8V.8A.8.8,0,0,1,11.994.707L12,.8v.8h1.6A2.4,2.4,0,0,1,16,4v9.6A2.4,2.4,0,0,1,13.6,16ZM1.6,4v9.6a.8.8,0,0,0,.8.8H13.6a.8.8,0,0,0,.8-.8V4a.8.8,0,0,0-.8-.8H12V4a.8.8,0,0,1-1.594.093L10.4,4V3.2H5.6V4a.8.8,0,0,1-1.595.093L4,4V3.2H2.4A.8.8,0,0,0,1.6,4ZM4,8a.8.8,0,0,1-.093-1.594L4,6.4h8a.8.8,0,0,1,.093,1.594L12,8Z" fill="#393738"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10" data-name="Group 10">
+    <path id="Combined_Shape-2" data-name="Combined Shape" d="M2.4,16A2.4,2.4,0,0,1,0,13.6V4A2.4,2.4,0,0,1,2.4,1.6H4V.8A.8.8,0,0,1,5.595.707L5.6.8v.8h4.8V.8A.8.8,0,0,1,11.994.707L12,.8v.8h1.6A2.4,2.4,0,0,1,16,4v9.6A2.4,2.4,0,0,1,13.6,16ZM1.6,4v9.6a.8.8,0,0,0,.8.8H13.6a.8.8,0,0,0,.8-.8V4a.8.8,0,0,0-.8-.8H12V4a.8.8,0,0,1-1.594.093L10.4,4V3.2H5.6V4a.8.8,0,0,1-1.595.093L4,4V3.2H2.4A.8.8,0,0,0,1.6,4ZM4,8a.8.8,0,0,1-.093-1.594L4,6.4h8a.8.8,0,0,1,.093,1.594L12,8Z" fill="#393738"/>
+    <g id="Mask_Group_11" data-name="Mask Group 11" clip-path="url(#clip-path)">
+      <g id="_Color" data-name="↳ 🎨Color">
+        <rect id="Base" width="16" height="16" fill="#8f8f8f"/>
+      </g>
+    </g>
+  </g>
+</svg>

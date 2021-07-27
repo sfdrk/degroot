@@ -1,0 +1,7 @@
+
+@mixin news-event-heading{
+    font-size: calc(36px + (48 - 36) * ((100vw - 300px) / (1600 - 300)));
+    color:$mainBgColor;
+    font-family:$mainFont;
+    font-weight:bold;
+}

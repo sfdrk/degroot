@@ -1,0 +1,18 @@
+.banner-container {
+  position: relative;
+}
+
+.banner-container img {
+  max-height: 42.3rem;
+  height: auto;
+  width: 100%;
+}
+
+.banner-container .cover-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,53 @@
+@import "../bootstrap/_functions";
+@import "../abstracts/_variables";
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 426px,
+  md: 769px,
+  lg: 1020px,
+  xl: 1440px
+) !default;
+
+@include _assert-ascending($grid-breakpoints, "$grid-breakpoints");
+@include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
+
+$container-max-widths: (
+  sm: 710px,
+  md: 750px,
+  lg: 960px,
+  xl: 1110px
+) !default;
+
+@include _assert-ascending($container-max-widths, "$container-max-widths");
+
+
+ .container-fluid{
+  max-width:1440px;
+  }
+
+
+body{
+    background:$bodyBackground;
+}
+
+p{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.date p{
+    padding-left:0.7rem;
+    font-family:$galanoMedium;
+    color:$darkGrey;
+    font-size:0.8rem;
+    display:flex;
+    align-items:center;
+}
+
+

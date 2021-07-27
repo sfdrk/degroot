@@ -1,0 +1,15 @@
+<svg id="Chevron_down" data-name="Chevron down" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="7" height="4.268" viewBox="0 0 7 4.268">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path" d="M3.5,2.263,1.438.242,1.417.222,1.381.191,1.358.173A.852.852,0,0,0,.249.242a.825.825,0,0,0,0,1.181l2.657,2.6.021.019.036.031.022.018a.852.852,0,0,0,1.109-.069l2.657-2.6.02-.021L6.8,1.367l.019-.022a.824.824,0,0,0-.07-1.1L6.73.222,6.694.191,6.672.173A.852.852,0,0,0,5.562.242Z" transform="translate(0 0)" fill="#393738"/>
+    </clipPath>
+  </defs>
+  <g id="Group_48" data-name="Group 48" transform="translate(0 0)">
+    <path id="Path-2" data-name="Path" d="M3.5,2.263,1.438.242,1.417.222,1.381.191,1.358.173A.852.852,0,0,0,.249.242a.825.825,0,0,0,0,1.181l2.657,2.6.021.019.036.031.022.018a.852.852,0,0,0,1.109-.069l2.657-2.6.02-.021L6.8,1.367l.019-.022a.824.824,0,0,0-.07-1.1L6.73.222,6.694.191,6.672.173A.852.852,0,0,0,5.562.242Z" transform="translate(0 0)" fill="#393738"/>
+    <g id="Mask_Group_49" data-name="Mask Group 49" clip-path="url(#clip-path)">
+      <g id="_Color" data-name="↳ 🎨Color" transform="translate(0 -1.365)">
+        <rect id="Base" width="7" height="7" fill="#d6d6d6"/>
+      </g>
+    </g>
+  </g>
+</svg>
